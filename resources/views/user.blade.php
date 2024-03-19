@@ -19,13 +19,13 @@
         }
 
         h1 {
-            color: #ffffff; /* Warna teks putih */
+            color: #6A0DAD; /* Warna teks putih */
             text-align: center;
             margin-bottom: 10px;
         }
 
         h4 {
-            color: #ffffff; /* Warna teks putih */
+            color: #6A0DAD; /* Warna teks putih */
             margin-top: 10px;
         }
 
@@ -63,7 +63,9 @@
 </head>
 <body>
     <div>
-        <h1>Profil Pengguna</h1>
+       <h1>Profil Pengguna</h1>
+        {{-- <h4>Nama  : Hanifah Amany</h4>
+        <h4>Absen : 08</h4> --}}
         <h4>Nama : {{ $name }}</h4>
         <h4>ID : {{ $id }}</h4>
         <a class="button" href="/home">Kembali ke Homepage</a>

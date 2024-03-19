@@ -81,7 +81,7 @@
         <h1>Kategori Produk</h1>
         <a class="category-link" href="{{ route('food') }}">Makanan dan Minuman</a>
         <a class="category-link" href="{{ route('beauty') }}">Kecantikan dan Kesehatan</a>
-        <a class="category-link" href="{{ route('homeC') }}">Perawatan Rumah</a>
+        <a class="category-link" href="{{ route('homeCare') }}">Perawatan Rumah</a>
         <a class="category-link" href="{{ route('baby') }}">Perlengkapan Bayi dan Anak</a>    
     </div>
     <a class="button" href="/home">Kembali ke Halaman Utama</a>

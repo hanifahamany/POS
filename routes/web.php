@@ -30,6 +30,6 @@ Route::prefix('products/category')->group(function(){
     Route::get('/', [ProductsController::class, 'index'])->name('index');
     Route::get('/food-beverage', [ProductsController::class, 'food'])->name('food');
     Route::get('/beauty-health', [ProductsController::class, 'beauty'])->name('beauty');
-    Route::get('/home-care', [ProductsController::class, 'homeCare'])->name('homeC');
+    Route::get('/home-care', [ProductsController::class, 'homeCare'])->name('homeCare');
     Route::get('/baby-kid', [ProductsController::class, 'baby'])->name('baby');
 });
