@@ -49,7 +49,7 @@
     <h1>Homepage</h1>
     <h3>Menu</h3>
     {{-- <a href="{{ route('profile', ['id' => 08, 'name' => 'Hanifah Amany']) }}">Profile</a> --}}
-    <a href="{{ url('/user/08/name/Hanifah')}}">Profile</a>
+    <a href="{{ url('/user/08/name/Hanifah Amany')}}">Profile</a>
     <a href="{{ url('/sales') }}">Sales</a>
     <a href="{{ url('/products/category/') }}">Produk</a>
 </body>
